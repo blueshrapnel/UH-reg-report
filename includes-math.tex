@@ -17,19 +17,21 @@
 \theoremstyle{remark}
 \newtheorem*{remark}{Remark}
 
-% Expectation symbol
-\DeclareMathOperator*{\E}{\mathbb{E}}
+% argmax and argmin
+\DeclareMathOperator*{\argmax}{arg\,max\,}
+\DeclareMathOperator*{\argmin}{arg\,min\,}
+
+% Generic symbols
+\DeclareMathOperator*{\E}{\mathbb{E}}   % expectation
+\newcommand{\real}{\mathbb{R}}          % reals
 
 % Information to go symbol
 \DeclareMathOperator{\Itg}{\Im}
+\newcommand{\Fen}{\mathcal{F}}
+
+% RL Gridworlds
 \renewcommand{\S}{\mathcal{S}}
 \newcommand{\A}{\mathcal{A}}
 \newcommand{\G}{\mathcal{G}}
 \newcommand{\R}{\mathcal{R}}
-\newcommand{\Fen}{\mathcal{F}}
-\newcommand{\real}{\mathbb{R}}
 
-
-% argmax and argmin
-\DeclareMathOperator*{\argmax}{arg\,max\,}
-\DeclareMathOperator*{\argmin}{arg\,min\,}
